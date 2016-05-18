@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GA_DressCell" rowHeight="120" id="Z9J-E1-rR1" customClass="GA_DressCell" customModule="GA_DetailsViewByContext" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="225"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Z9J-E1-rR1" id="QrU-hu-VoK">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="224"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvj-pm-5N7" customClass="GA_LineHeightLabel" customModule="GA_DetailsViewByContext" customModuleProvider="target">
+                        <rect key="frame" x="15" y="21" width="290" height="119"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <string key="text">LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel</string>
+                        <fontDescription key="fontDescription" name="SimHei" family="SimHei" pointSize="11"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isXib" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ywb-f6-yki">
+                        <rect key="frame" x="13" y="161" width="24" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="BlW-ib-I64"/>
+                            <constraint firstAttribute="width" constant="24" id="day-a9-jTP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chE-PR-Nwg" customClass="GA_LineHeightLabel" customModule="GA_DetailsViewByContext" customModuleProvider="target">
+                        <rect key="frame" x="44" y="164" width="261" height="15"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isXib" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNI-Dn-pBf" customClass="GA_LineHeightLabel" customModule="GA_DetailsViewByContext" customModuleProvider="target">
+                        <rect key="frame" x="44" y="194" width="261" height="15"/>
+                        <color key="backgroundColor" red="0.6588235294" green="0.75294117650000003" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isXib" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="DNI-Dn-pBf" firstAttribute="leading" secondItem="chE-PR-Nwg" secondAttribute="leading" id="4Wq-0j-zXX"/>
+                    <constraint firstAttribute="bottom" secondItem="DNI-Dn-pBf" secondAttribute="bottom" constant="15" id="4zl-Br-n7c"/>
+                    <constraint firstAttribute="trailing" secondItem="DNI-Dn-pBf" secondAttribute="trailing" constant="15" id="6dj-Ze-9cr"/>
+                    <constraint firstAttribute="trailing" secondItem="bvj-pm-5N7" secondAttribute="trailing" constant="15" id="DaK-D9-6G1"/>
+                    <constraint firstItem="chE-PR-Nwg" firstAttribute="leading" secondItem="ywb-f6-yki" secondAttribute="trailing" constant="7" id="Gmi-rR-fJ2"/>
+                    <constraint firstItem="ywb-f6-yki" firstAttribute="top" secondItem="bvj-pm-5N7" secondAttribute="bottom" constant="21" id="JiM-io-wSA"/>
+                    <constraint firstItem="DNI-Dn-pBf" firstAttribute="top" secondItem="chE-PR-Nwg" secondAttribute="bottom" constant="15" id="KCY-5V-bBB"/>
+                    <constraint firstItem="chE-PR-Nwg" firstAttribute="top" secondItem="bvj-pm-5N7" secondAttribute="bottom" constant="24" id="KFe-Kj-moI"/>
+                    <constraint firstItem="bvj-pm-5N7" firstAttribute="top" secondItem="QrU-hu-VoK" secondAttribute="top" constant="21" id="Nb7-ig-UVR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="chE-PR-Nwg" secondAttribute="trailing" constant="7" id="P7H-34-92E"/>
+                    <constraint firstItem="ywb-f6-yki" firstAttribute="leading" secondItem="QrU-hu-VoK" secondAttribute="leading" constant="13" id="g52-SW-rtV"/>
+                    <constraint firstItem="bvj-pm-5N7" firstAttribute="leading" secondItem="QrU-hu-VoK" secondAttribute="leading" constant="15" id="lzp-77-5YY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="costLabel" destination="DNI-Dn-pBf" id="N7s-vc-8Kc"/>
+                <outlet property="dressLabel" destination="chE-PR-Nwg" id="ETk-zf-Txc"/>
+                <outlet property="titleLabel" destination="bvj-pm-5N7" id="t4W-P5-dKM"/>
+            </connections>
+            <point key="canvasLocation" x="162" y="-33.5"/>
+        </tableViewCell>
+    </objects>
+</document>

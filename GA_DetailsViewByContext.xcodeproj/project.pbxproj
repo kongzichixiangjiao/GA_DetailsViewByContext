@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3564C01CEB052700B5E36A /* GA_DressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3564BF1CEB052700B5E36A /* GA_DressCell.swift */; };
+		DC3564C21CEB057400B5E36A /* GA_DressCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3564C11CEB057400B5E36A /* GA_DressCell.xib */; };
+		DC3564C41CEB097200B5E36A /* GA_LineHeightLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3564C31CEB097200B5E36A /* GA_LineHeightLabel.swift */; };
+		DC3564C61CEB09E200B5E36A /* GA_LineHeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3564C51CEB09E200B5E36A /* GA_LineHeightViewController.swift */; };
+		DC8D043E1CEC0D160078EAA8 /* GA_ScrollDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D043D1CEC0D160078EAA8 /* GA_ScrollDetailsViewController.swift */; };
+		DC8D04421CEC135E0078EAA8 /* UIImage+StackBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8D04411CEC135E0078EAA8 /* UIImage+StackBlur.m */; };
+		DC8D04441CEC18870078EAA8 /* GA_DetailsBlurtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D04431CEC18870078EAA8 /* GA_DetailsBlurtView.swift */; };
+		DC8D04471CEC1FA70078EAA8 /* GA_DetailsCoordinateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D04461CEC1FA70078EAA8 /* GA_DetailsCoordinateView.swift */; };
+		DC8D04491CEC1FAF0078EAA8 /* GA_DetailsCoordinateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8D04481CEC1FAF0078EAA8 /* GA_DetailsCoordinateView.xib */; };
+		DC8D044B1CEC21350078EAA8 /* GA_DetailsBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D044A1CEC21350078EAA8 /* GA_DetailsBackgroundView.swift */; };
+		DC8D044D1CEC22750078EAA8 /* GA_DetailsDressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D044C1CEC22750078EAA8 /* GA_DetailsDressView.swift */; };
+		DC8D044F1CEC2AD20078EAA8 /* GA_DetailsPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D044E1CEC2AD20078EAA8 /* GA_DetailsPictureView.swift */; };
+		DC8D04511CEC39F80078EAA8 /* GA_DetailsMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D04501CEC39F80078EAA8 /* GA_DetailsMoreView.swift */; };
+		DC8D04531CEC3A080078EAA8 /* GA_DetailsMoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8D04521CEC3A080078EAA8 /* GA_DetailsMoreView.xib */; };
+		DC8D04551CEC3EF50078EAA8 /* GA_DetailsBeFromeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8D04541CEC3EF50078EAA8 /* GA_DetailsBeFromeView.xib */; };
+		DC8D04571CEC3F000078EAA8 /* GA_DetailsBeFromeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D04561CEC3F000078EAA8 /* GA_DetailsBeFromeView.swift */; };
+		DC8D04591CEC425C0078EAA8 /* GA_WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D04581CEC425C0078EAA8 /* GA_WebView.swift */; };
+		DC8D045B1CEC4E110078EAA8 /* GA_DetailsClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D045A1CEC4E110078EAA8 /* GA_DetailsClassView.swift */; };
+		DC8D045D1CEC4E260078EAA8 /* GA_DetailsClassView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8D045C1CEC4E260078EAA8 /* GA_DetailsClassView.xib */; };
+		DC8D04611CEC542B0078EAA8 /* GA_DetailsConmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D04601CEC542B0078EAA8 /* GA_DetailsConmentView.swift */; };
 		DCD66DCC1CEAB84B00024BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD66DCB1CEAB84B00024BD1 /* AppDelegate.swift */; };
 		DCD66DCE1CEAB84B00024BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD66DCD1CEAB84B00024BD1 /* ViewController.swift */; };
 		DCD66DD11CEAB84B00024BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD66DCF1CEAB84B00024BD1 /* Main.storyboard */; };
@@ -14,6 +34,11 @@
 		DCD66DD61CEAB84B00024BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD66DD41CEAB84B00024BD1 /* LaunchScreen.storyboard */; };
 		DCD66DE11CEAB84B00024BD1 /* GA_DetailsViewByContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD66DE01CEAB84B00024BD1 /* GA_DetailsViewByContextTests.swift */; };
 		DCD66DEC1CEAB84B00024BD1 /* GA_DetailsViewByContextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD66DEB1CEAB84B00024BD1 /* GA_DetailsViewByContextUITests.swift */; };
+		DCD66DFA1CEAB86500024BD1 /* GA_DetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD66DF91CEAB86500024BD1 /* GA_DetailsModel.swift */; };
+		DCD66DFC1CEABD1F00024BD1 /* GA_DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD66DFB1CEABD1F00024BD1 /* GA_DetailsView.swift */; };
+		DCD66DFE1CEAC35800024BD1 /* GA_DetailsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD66DFD1CEAC35800024BD1 /* GA_DetailsScrollView.swift */; };
+		DCD66E011CEAD30900024BD1 /* imageName.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCD66DFF1CEAD30900024BD1 /* imageName.jpg */; };
+		DCD66E021CEAD30900024BD1 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCD66E001CEAD30900024BD1 /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC3564BF1CEB052700B5E36A /* GA_DressCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DressCell.swift; sourceTree = "<group>"; };
+		DC3564C11CEB057400B5E36A /* GA_DressCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_DressCell.xib; sourceTree = "<group>"; };
+		DC3564C31CEB097200B5E36A /* GA_LineHeightLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GA_LineHeightLabel.swift; path = ../GA_LineHeightLabel.swift; sourceTree = "<group>"; };
+		DC3564C51CEB09E200B5E36A /* GA_LineHeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_LineHeightViewController.swift; sourceTree = "<group>"; };
+		DC8D043D1CEC0D160078EAA8 /* GA_ScrollDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_ScrollDetailsViewController.swift; sourceTree = "<group>"; };
+		DC8D043F1CEC135D0078EAA8 /* GA_DetailsViewByContext-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GA_DetailsViewByContext-Bridging-Header.h"; sourceTree = "<group>"; };
+		DC8D04401CEC135E0078EAA8 /* UIImage+StackBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+StackBlur.h"; sourceTree = "<group>"; };
+		DC8D04411CEC135E0078EAA8 /* UIImage+StackBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+StackBlur.m"; sourceTree = "<group>"; };
+		DC8D04431CEC18870078EAA8 /* GA_DetailsBlurtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GA_DetailsBlurtView.swift; path = ../GA_DetailsBlurtView.swift; sourceTree = "<group>"; };
+		DC8D04461CEC1FA70078EAA8 /* GA_DetailsCoordinateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsCoordinateView.swift; sourceTree = "<group>"; };
+		DC8D04481CEC1FAF0078EAA8 /* GA_DetailsCoordinateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_DetailsCoordinateView.xib; sourceTree = "<group>"; };
+		DC8D044A1CEC21350078EAA8 /* GA_DetailsBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsBackgroundView.swift; sourceTree = "<group>"; };
+		DC8D044C1CEC22750078EAA8 /* GA_DetailsDressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsDressView.swift; sourceTree = "<group>"; };
+		DC8D044E1CEC2AD20078EAA8 /* GA_DetailsPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsPictureView.swift; sourceTree = "<group>"; };
+		DC8D04501CEC39F80078EAA8 /* GA_DetailsMoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsMoreView.swift; sourceTree = "<group>"; };
+		DC8D04521CEC3A080078EAA8 /* GA_DetailsMoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_DetailsMoreView.xib; sourceTree = "<group>"; };
+		DC8D04541CEC3EF50078EAA8 /* GA_DetailsBeFromeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_DetailsBeFromeView.xib; sourceTree = "<group>"; };
+		DC8D04561CEC3F000078EAA8 /* GA_DetailsBeFromeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsBeFromeView.swift; sourceTree = "<group>"; };
+		DC8D04581CEC425C0078EAA8 /* GA_WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_WebView.swift; sourceTree = "<group>"; };
+		DC8D045A1CEC4E110078EAA8 /* GA_DetailsClassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsClassView.swift; sourceTree = "<group>"; };
+		DC8D045C1CEC4E260078EAA8 /* GA_DetailsClassView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GA_DetailsClassView.xib; sourceTree = "<group>"; };
+		DC8D04601CEC542B0078EAA8 /* GA_DetailsConmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsConmentView.swift; sourceTree = "<group>"; };
 		DCD66DC81CEAB84A00024BD1 /* GA_DetailsViewByContext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GA_DetailsViewByContext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD66DCB1CEAB84B00024BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCD66DCD1CEAB84B00024BD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +94,11 @@
 		DCD66DE71CEAB84B00024BD1 /* GA_DetailsViewByContextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_DetailsViewByContextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD66DEB1CEAB84B00024BD1 /* GA_DetailsViewByContextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_DetailsViewByContextUITests.swift; sourceTree = "<group>"; };
 		DCD66DED1CEAB84B00024BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD66DF91CEAB86500024BD1 /* GA_DetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GA_DetailsModel.swift; sourceTree = "<group>"; };
+		DCD66DFB1CEABD1F00024BD1 /* GA_DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GA_DetailsView.swift; path = ../GA_DetailsView.swift; sourceTree = "<group>"; };
+		DCD66DFD1CEAC35800024BD1 /* GA_DetailsScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GA_DetailsScrollView.swift; path = ../GA_DetailsScrollView.swift; sourceTree = "<group>"; };
+		DCD66DFF1CEAD30900024BD1 /* imageName.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageName.jpg; sourceTree = "<group>"; };
+		DCD66E001CEAD30900024BD1 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +126,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC8D04451CEC1F540078EAA8 /* SBDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D04581CEC425C0078EAA8 /* GA_WebView.swift */,
+				DCD66DFB1CEABD1F00024BD1 /* GA_DetailsView.swift */,
+				DC8D04431CEC18870078EAA8 /* GA_DetailsBlurtView.swift */,
+				DCD66DFD1CEAC35800024BD1 /* GA_DetailsScrollView.swift */,
+				DC8D044A1CEC21350078EAA8 /* GA_DetailsBackgroundView.swift */,
+				DC8D044C1CEC22750078EAA8 /* GA_DetailsDressView.swift */,
+				DC8D04461CEC1FA70078EAA8 /* GA_DetailsCoordinateView.swift */,
+				DC8D04481CEC1FAF0078EAA8 /* GA_DetailsCoordinateView.xib */,
+				DC8D044E1CEC2AD20078EAA8 /* GA_DetailsPictureView.swift */,
+				DC8D04501CEC39F80078EAA8 /* GA_DetailsMoreView.swift */,
+				DC8D04521CEC3A080078EAA8 /* GA_DetailsMoreView.xib */,
+				DC8D04561CEC3F000078EAA8 /* GA_DetailsBeFromeView.swift */,
+				DC8D04541CEC3EF50078EAA8 /* GA_DetailsBeFromeView.xib */,
+				DC8D045A1CEC4E110078EAA8 /* GA_DetailsClassView.swift */,
+				DC8D045C1CEC4E260078EAA8 /* GA_DetailsClassView.xib */,
+				DC8D04601CEC542B0078EAA8 /* GA_DetailsConmentView.swift */,
+				DC3564C31CEB097200B5E36A /* GA_LineHeightLabel.swift */,
+			);
+			path = SBDetailsView;
+			sourceTree = "<group>";
+		};
 		DCD66DBF1CEAB84A00024BD1 = {
 			isa = PBXGroup;
 			children = (
@@ -98,11 +174,22 @@
 			isa = PBXGroup;
 			children = (
 				DCD66DCB1CEAB84B00024BD1 /* AppDelegate.swift */,
+				DC3564C51CEB09E200B5E36A /* GA_LineHeightViewController.swift */,
+				DC8D043D1CEC0D160078EAA8 /* GA_ScrollDetailsViewController.swift */,
 				DCD66DCD1CEAB84B00024BD1 /* ViewController.swift */,
+				DC8D04451CEC1F540078EAA8 /* SBDetailsView */,
+				DCD66DF91CEAB86500024BD1 /* GA_DetailsModel.swift */,
+				DC3564BF1CEB052700B5E36A /* GA_DressCell.swift */,
+				DC3564C11CEB057400B5E36A /* GA_DressCell.xib */,
+				DC8D04401CEC135E0078EAA8 /* UIImage+StackBlur.h */,
+				DC8D04411CEC135E0078EAA8 /* UIImage+StackBlur.m */,
+				DCD66DFF1CEAD30900024BD1 /* imageName.jpg */,
+				DCD66E001CEAD30900024BD1 /* test.jpg */,
 				DCD66DCF1CEAB84B00024BD1 /* Main.storyboard */,
 				DCD66DD21CEAB84B00024BD1 /* Assets.xcassets */,
 				DCD66DD41CEAB84B00024BD1 /* LaunchScreen.storyboard */,
 				DCD66DD71CEAB84B00024BD1 /* Info.plist */,
+				DC8D043F1CEC135D0078EAA8 /* GA_DetailsViewByContext-Bridging-Header.h */,
 			);
 			path = GA_DetailsViewByContext;
 			sourceTree = "<group>";
@@ -229,9 +316,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD66E011CEAD30900024BD1 /* imageName.jpg in Resources */,
+				DCD66E021CEAD30900024BD1 /* test.jpg in Resources */,
+				DC8D04531CEC3A080078EAA8 /* GA_DetailsMoreView.xib in Resources */,
 				DCD66DD61CEAB84B00024BD1 /* LaunchScreen.storyboard in Resources */,
+				DC3564C21CEB057400B5E36A /* GA_DressCell.xib in Resources */,
 				DCD66DD31CEAB84B00024BD1 /* Assets.xcassets in Resources */,
+				DC8D045D1CEC4E260078EAA8 /* GA_DetailsClassView.xib in Resources */,
 				DCD66DD11CEAB84B00024BD1 /* Main.storyboard in Resources */,
+				DC8D04551CEC3EF50078EAA8 /* GA_DetailsBeFromeView.xib in Resources */,
+				DC8D04491CEC1FAF0078EAA8 /* GA_DetailsCoordinateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +350,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8D04441CEC18870078EAA8 /* GA_DetailsBlurtView.swift in Sources */,
 				DCD66DCE1CEAB84B00024BD1 /* ViewController.swift in Sources */,
+				DC8D04571CEC3F000078EAA8 /* GA_DetailsBeFromeView.swift in Sources */,
+				DC3564C61CEB09E200B5E36A /* GA_LineHeightViewController.swift in Sources */,
+				DC3564C41CEB097200B5E36A /* GA_LineHeightLabel.swift in Sources */,
 				DCD66DCC1CEAB84B00024BD1 /* AppDelegate.swift in Sources */,
+				DC8D044D1CEC22750078EAA8 /* GA_DetailsDressView.swift in Sources */,
+				DCD66DFE1CEAC35800024BD1 /* GA_DetailsScrollView.swift in Sources */,
+				DC8D04421CEC135E0078EAA8 /* UIImage+StackBlur.m in Sources */,
+				DC8D04591CEC425C0078EAA8 /* GA_WebView.swift in Sources */,
+				DC8D04611CEC542B0078EAA8 /* GA_DetailsConmentView.swift in Sources */,
+				DC8D044F1CEC2AD20078EAA8 /* GA_DetailsPictureView.swift in Sources */,
+				DC8D043E1CEC0D160078EAA8 /* GA_ScrollDetailsViewController.swift in Sources */,
+				DCD66DFA1CEAB86500024BD1 /* GA_DetailsModel.swift in Sources */,
+				DC8D04471CEC1FA70078EAA8 /* GA_DetailsCoordinateView.swift in Sources */,
+				DC8D044B1CEC21350078EAA8 /* GA_DetailsBackgroundView.swift in Sources */,
+				DCD66DFC1CEABD1F00024BD1 /* GA_DetailsView.swift in Sources */,
+				DC8D04511CEC39F80078EAA8 /* GA_DetailsMoreView.swift in Sources */,
+				DC8D045B1CEC4E110078EAA8 /* GA_DetailsClassView.swift in Sources */,
+				DC3564C01CEB052700B5E36A /* GA_DressCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +511,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GA_DetailsViewByContext/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-DetailsViewByContext";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GA_DetailsViewByContext/GA_DetailsViewByContext-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +527,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = GA_DetailsViewByContext/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jianan.GA-DetailsViewByContext";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "GA_DetailsViewByContext/GA_DetailsViewByContext-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +603,7 @@
 				DCD66DF21CEAB84B00024BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCD66DF31CEAB84B00024BD1 /* Build configuration list for PBXNativeTarget "GA_DetailsViewByContextTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +612,7 @@
 				DCD66DF51CEAB84B00024BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCD66DF61CEAB84B00024BD1 /* Build configuration list for PBXNativeTarget "GA_DetailsViewByContextUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +621,7 @@
 				DCD66DF81CEAB84B00024BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
